@@ -4,7 +4,6 @@ import { fetchCatalog } from '../data/catalog/catalogClient'
 import type { Catalog } from '../domain/catalog'
 import { filterListings, listings, quoteText, restoreQuote, type Category, type Listing, type QuoteLine } from './model'
 import Art from './Art'
-import './market.css'
 const Showroom = lazy(() => import('./Showroom'))
 const Walkthrough = lazy(() => import('./Walkthrough'))
 const categories: {id: Category; title: string; caption: string}[] = [{id:'all',title:'همهٔ محصولات',caption:'تمام متریال‌ها'},{id:'office',title:'کاغذ اداری',caption:'برای ایده‌های روزمره'},{id:'print',title:'چاپ و تحریر',caption:'کیفیت در هر برگ'},{id:'board',title:'مقوا و بسته‌بندی',caption:'فرم بدهید، متمایز شوید'}]

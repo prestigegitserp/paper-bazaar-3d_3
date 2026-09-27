@@ -1,0 +1,3 @@
+export default function Art({ kind = 'office', large = false }: { kind?: string; large?: boolean }) {
+  return <div className={`paper-art ${kind} ${large ? 'large' : ''}`} aria-hidden="true"><div className="art-orbit"/><div className="paper-stack"><i/><i/><i/><i/><div className="paper-label"><span>PAPER BAZAAR</span><b>{kind === 'board' ? 'KRAFT' : kind === 'print' ? 'FINE PAPER' : 'PURE PAPER'}</b><small>{kind === 'board' ? 'NATURAL COLLECTION' : 'THE MATERIAL OF IDEAS'}</small></div></div><div className="paper-roll"/><span className="art-number">{kind === 'board' ? '03' : kind === 'print' ? '02' : '01'} / MATERIAL LIBRARY</span></div>
+}

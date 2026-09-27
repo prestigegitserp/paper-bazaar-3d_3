@@ -1,13 +1,8 @@
-# Paper Bazaar 3D — repository migration
+# Migration origin — Paper Bazaar 03
 
-This repository continues Paper Bazaar 3D from stable v0.15.0 of `prestigegitserp/paper-bazaar-3d`.
+- Source repository: https://github.com/prestigegitserp/paper-bazaar-3d_2
+- Source snapshot: `e96115dea55379bc8a0b72c4fec08b952eb97543` (v0.17 codebase)
+- Destination: https://github.com/prestigegitserp/paper-bazaar-3d_3
+- New application version: 1.0.0
 
-The legacy repository is read-only from this migration point onward. New development starts here with v0.16.
-
-Migration source:
-- legacy repository: prestigegitserp/paper-bazaar-3d
-- source ref: release/v0.15.0
-- source commit: 2a85822b6d9e05a3c3c15b0a290b46ac077f76bc
-- imported into: prestigegitserp/paper-bazaar-3d_2
-
-All v0.16+ development happens only in this repository.
+The source repository was read only during this rebuild. All implementation changes belong to the destination repository. Because the authenticated GitHub connector was used to publish the complete tree, old git history is not replicated into this repository; provenance and the original MIT notice are retained. Legacy runtime code and its documentation are included for continuity.

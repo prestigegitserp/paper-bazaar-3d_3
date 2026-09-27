@@ -1,3 +1,14 @@
+# Paper Bazaar 03 — 1.0.0
+
+- Rebuilt the front door as an RTL, responsive catalog with search, filters, supplier selection and comparisons.
+- Added local persistent favorites and inquiry drafts with quantities, notes and UTF-8 export.
+- Added a lazy, demand-rendered material studio and preserved the full market as an optional walkthrough.
+- Reduced initial JavaScript gzip output from 336.51 kB to 67.52 kB (same build toolchain); no FPS claim.
+- Added behavioral unit tests, browser acceptance tests, CI evidence and destination Pages configuration.
+- Preserved source attribution, MIT license and legacy documentation.
+
+---
+
 # Changelog
 
 ## 0.17.0 — Root performance + baked realism
